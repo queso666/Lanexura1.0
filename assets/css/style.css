@@ -505,7 +505,6 @@ p {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-.container {
   width: 100%;
   height: 100vh;
   background: #000a0e;
@@ -513,17 +512,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-/* Adjustments for Mobile Devices */
-@media (max-width: 767px) {
-  .container {
-    background-size: contain; /* Adjust to contain the image within the screen on small devices */
-    background-position: top; /* Position the image closer to the top */
-  }
-}
-
-
 }
 
 #hero .container {
