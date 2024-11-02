@@ -513,14 +513,6 @@ p {
   background-size: cover;
 }
 
-
-@media (max-width: 767px) {
-  .container {
-    background-size: contain;
-    background-position: top;
-  }
-}
-
 #hero .container {
   padding-top: 72px;
 }
